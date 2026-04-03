@@ -72,6 +72,13 @@ Choose option
 
 ---
 
+## 📸 Screenshot
+
+### CLI
+![CLI](screenshots/run.png)
+
+---
+
 ## 🔧 Future Improvements
 
 - Add database integration (MySQL/PostgreSQL)
