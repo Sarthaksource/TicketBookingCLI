@@ -1,0 +1,34 @@
+Entities:
+User:
+String name
+String hashedPassword
+<Ticket> TicketBooked
+String userId
+
+Ticket:
+String ticketId
+String userId
+String source
+String destination
+DateTime dateOfTravel
+Train train
+
+Train:
+String trainId
+String trainNo
+DateTime departTime
+DateTime arrivalTime
+List<List<Boolean>> seats
+
+
+Services:
+userBookingService:
+login(User user)
+signUp(User user)
+fetchBookings(User user)
+cancel(User user, Ticket ticket)
+bookTicket(User user, String src, String des)
+
+trainService:
+searchTrain(String src, String des)
+getSeatsAvailable(Train t)

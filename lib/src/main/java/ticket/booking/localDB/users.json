@@ -1,0 +1,143 @@
+[
+  {
+    "name": "L S",
+    "password": "12345",
+    "hashed_password": "$2a$10$U5/6B84QwKM1NJlQF6UEH.8Y.qTvbkcbQOBWsZLb918oy1Ma.8rbe",
+    "user_id": "abcdefgh",
+    "tickets_booked": [
+      {
+        "ticket_id": "0c1aa082-82a0-4ff4-814c-37f9ab8d2c02",
+        "user_id": "abcdefgh",
+        "source": "Bangalore",
+        "destination": "Delhi",
+        "date_of_travel": "2026-03-08",
+        "train": {
+          "train_id": "exp101",
+          "train_no": "12001",
+          "seats": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "station_times": {
+            "bangalore": "06:00:00",
+            "hyderabad": "11:30:00",
+            "nagpur": "17:45:00",
+            "delhi": "06:30:00"
+          },
+          "stations": [
+            "bangalore",
+            "hyderabad",
+            "nagpur",
+            "delhi"
+          ],
+          "train_info": "Train ID: exp101 Train No: 12001"
+        },
+        "seat_location": [
+          0,
+          0
+        ],
+        "ticket_info": "Ticket ID: 0c1aa082-82a0-4ff4-814c-37f9ab8d2c02 belongs to User abcdefgh from Bangalore to Delhi on 2026-03-08 in row 1 and seat 1"
+      },
+      {
+        "ticket_id": "8420677b-8b52-4f93-a65f-559e80704512",
+        "user_id": "abcdefgh",
+        "source": "Bangalore",
+        "destination": "Delhi",
+        "date_of_travel": "2026-03-08",
+        "train": {
+          "train_id": "exp101",
+          "train_no": "12001",
+          "seats": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "station_times": {
+            "bangalore": "06:00:00",
+            "hyderabad": "11:30:00",
+            "nagpur": "17:45:00",
+            "delhi": "06:30:00"
+          },
+          "stations": [
+            "bangalore",
+            "hyderabad",
+            "nagpur",
+            "delhi"
+          ],
+          "train_info": "Train ID: exp101 Train No: 12001"
+        },
+        "seat_location": [
+          1,
+          1
+        ],
+        "ticket_info": "Ticket ID: 8420677b-8b52-4f93-a65f-559e80704512 belongs to User abcdefgh from Bangalore to Delhi on 2026-03-08 in row 2 and seat 2"
+      }
+    ]
+  },
+  {
+    "name": "rahul",
+    "password": "abcdef12",
+    "hashed_password": "$2a$10$aY8ng6VCmyoJZ25CREuvd.OcyzNPLRhWVumLI5c4B3cfe5LlJCKv6",
+    "user_id": "082c2ef8-5c99-4b13-a919-2639c1e69237",
+    "tickets_booked": []
+  }
+]

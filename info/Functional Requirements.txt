@@ -1,0 +1,5 @@
+Able to login and sign up
+Fetch/search trains from A to B station
+Show available seats
+Book seats
+Ticket download/fetch

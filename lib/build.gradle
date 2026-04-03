@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation libs.junit
+    implementation libs.commons.math3
+    implementation libs.guava
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.1'
+    implementation 'org.mindrot:jbcrypt:0.4'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    mainClass = 'ticket.booking.App'
+}
