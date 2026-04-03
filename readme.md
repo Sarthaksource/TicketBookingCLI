@@ -2,7 +2,6 @@
 
 A simple Command Line Interface (CLI) based Ticket Booking System built using Java. This project demonstrates core programming concepts such as user authentication, booking management, and menu-driven interaction.
 
----
 
 ## 📌 Features
 
@@ -13,7 +12,6 @@ A simple Command Line Interface (CLI) based Ticket Booking System built using Ja
 - Cancel Booking
 - Exit Application
 
----
 
 ## 🖥️ CLI Menu
 
@@ -29,7 +27,6 @@ Choose option
 6. Exit the App
 ```
 
----
 
 ## ⚙️ Technologies Used
 
@@ -37,7 +34,6 @@ Choose option
 - CLI (Command Line Interface)
 - Object-Oriented Programming (OOP)
 
----
 
 
 ## 🧑‍💻 How It Works
@@ -60,7 +56,6 @@ Choose option
 ### 6. Exit
 - Close the application.
 
----
 
 ## 📚 Concepts Covered
 
@@ -70,14 +65,12 @@ Choose option
 - Exception Handling
 - CLI Input Handling
 
----
 
 ## 📸 Screenshot
 
 ### CLI
 ![CLI](screenshots/run.png)
 
----
 
 ## 🔧 Future Improvements
 
